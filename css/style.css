@@ -85,6 +85,15 @@ img {
 	padding: 0 15px;
 }
 
+.course-img {
+	transition: width 0.3c height 03c;
+}
+
+.course-img:hover {
+	width: 100px;
+	height: 100px;
+}
+
 .row {
 	margin: 0 -15px;
 }
